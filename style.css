@@ -26,14 +26,16 @@ header {
     max-width: 500px;
   }
 
-  .content_container {
-    flex-direction: row;
-    display:flex;
-    flex-wrap: wrap;
-    justify-content:space-between;
-    margin: 0px 10px 10px;
-    row-gap: 40px;
+  h1 {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 56px;
   }
+  
+  h3 {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 26px;
+  }
+  
 
 }
 
