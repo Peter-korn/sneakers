@@ -20,9 +20,10 @@ header {
 }
 
 @media screen and (max-width: 768px){
-  .logo {
-    margin-left: 10px;
-    max-width: 500px;
+  body {
+    background-color:black;
+    margin: 0;
+    padding: 0;
   }
 }
 
