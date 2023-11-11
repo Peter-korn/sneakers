@@ -19,26 +19,6 @@ header {
   font-size: 20px;
 }
 
-@media screen and (max-width: 780px) {
-
-  .logo {
-    margin-left: 10px;
-    max-width: 500px;
-  }
-
-  h1 {
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    font-size: 56px;
-  }
-  
-  h3 {
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    font-size: 26px;
-  }
-  
-
-}
-
 .logo {
   margin-left: 90px;
   max-width: 500px;
@@ -148,4 +128,110 @@ footer {
   display: flex;
   justify-content: space-around;
   margin:5px;
+}
+
+@media screen and (max-width: 768px) {
+  
+  .logo {
+    max-width: 350px;
+    margin: 20px;
+  }
+
+  header {
+    font-family: "Anonymous Regular";
+    background-color: white;
+    height: 130px;
+    font-size: 20px;
+    padding-top: 10px;
+    padding-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+  }
+
+  footer {
+    background-color: #121723;
+    font-family: "Anonymous Regular";
+    height: 150px;
+    font-size: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+  }
+
+  .before_line_footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  hr {
+    padding: 0px;
+    margin: 10px;
+  }
+
+  .tag {
+    margin: 0px;
+  }
+
+  ul {
+    list-style-type: none;
+    padding: 0px;
+    margin: 0px;
+  }
+
+  .content_container {
+    flex-direction:column;
+    display:flex;
+    flex-wrap: wrap;
+    justify-content:space-between;
+    align-items: center;
+    margin: 0px 20px 20px;
+    row-gap: 20px;
+  }
+
+  .container {
+    background-color: white;
+    border-radius: 15px;
+    font-weight: 700;
+    transition: box-shadow 0.2s ease-in, transform 0.2s ease-in;
+    text-decoration: none;
+    color: black;
+  }
+
+  .subtitle {
+    font-family: "Anonymous Regular", sans-serif;
+    font-size: 32px;
+    margin-left: 10%;
+  }
+
+  .container__image {
+    width: 310px;
+    height: 220px;
+    margin: 10px;
+    padding: 0;
+  }
+  
+  .container__title {
+    width: 323px;
+    font-size: 26px;
+    margin: 15px;
+    padding: 0;
+  }
+  
+  .container__text {
+    width: 323px;
+    font-size: 20px;
+    margin: 15px;
+    padding: 0;
+  }
+
+  main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
 }
