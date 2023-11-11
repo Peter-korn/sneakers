@@ -19,11 +19,22 @@ header {
   font-size: 20px;
 }
 
-@media all and (max-width: 780px) {
+@media screen and (max-width: 780px) {
+
   .logo {
     margin-left: 10px;
     max-width: 500px;
   }
+
+  .content_container {
+    flex-direction: row;
+    display:flex;
+    flex-wrap: wrap;
+    justify-content:space-between;
+    margin: 0px 10px 10px;
+    row-gap: 40px;
+  }
+
 }
 
 .logo {
