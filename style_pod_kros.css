@@ -185,23 +185,26 @@ footer {
         font-family: "Anonymous Regular";
     }
 
-    hr {
-        margin-left: 0;
-        margin-right: 0;
-    }
-
     .information {
-        display: flexbox;
         flex-direction: column;
         align-items: center;
     }
 
     .history {
-        max-width: 70%;
+        width: auto;
     }
 
     .short_inf {
-        max-width: 70%;
+        width: auto;
+    }
+
+    .short_inf_line {
+        display:flex;
+    }
+
+    hr {
+        margin-left: 0;
+        margin-right: 0;
     }
 
     h1 {
