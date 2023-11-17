@@ -130,6 +130,59 @@ footer {
   margin:5px;
 }
 
+.glob {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.center {
+  background-color: white;
+  border-radius: 50px;
+  margin: 60px 90px;
+  padding: 40px;
+  font-family: "Anonymous Regular";
+}
+
+.image {
+  width: 100%;
+  border-radius: 50px 50px 0px 0px;
+}
+
+.information {
+  display: flex;
+  justify-content: space-between;
+}
+
+.history {
+  width: 506px;
+}
+
+.short_inf {
+  width: 506px;
+}
+
+.short_inf_line {
+  display: flex;
+  justify-content: space-between;
+}
+
+h1 {
+  font-size: 48px;
+}
+
+h3 {
+  font-size: 36px;
+}
+
+h4 {
+  font-size: 30px;
+}
+
+h5 {
+  font-size: 20px;
+}
+
 @media screen and (max-width: 768px) {
   
   .logo {
@@ -234,4 +287,58 @@ footer {
     align-items: center;
   }
 
+  .glob {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+  .center {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: white;
+    border-radius: 20px;
+    margin: 25px 25px;
+    padding: 20px;
+    font-family: "Anonymous Regular";
+}
+
+  .information {
+    flex-direction: column;
+    align-items: center;
+}
+
+  .history {
+    width: auto;
+}
+
+  .short_inf {
+    width: auto;
+}
+
+  .short_inf_line {
+    display:flex;
+}
+
+  hr {
+    margin-left: 0;
+    margin-right: 0;
+}
+
+  h1 {
+    font-size: 32px;
+}
+
+  h3 {
+    font-size: 20px;
+}
+
+  h4 {
+    font-size: 30px;
+}
+
+  h5 {
+    font-size: 16px;
+}
 }
